@@ -14,6 +14,9 @@ public class Main {
         TPE tpe3 = TPE.getInstance();
         System.out.println("Solde : " + tpe3.getSolde());
 
+        TPE tpe4 = TPE.getInstance();
+        tpe4.resetSolde();
+        System.out.println("Solde : " + tpe.getSolde());
     }
 
 }

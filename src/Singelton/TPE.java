@@ -22,4 +22,8 @@ public class TPE {
     public double getSolde() {
         return this.solde;
     }
+
+    public void resetSolde() {
+        this.solde = 0.0;
+    }
 }
